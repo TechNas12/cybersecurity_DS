@@ -1,3 +1,4 @@
 #Virtual Environment
 venv/
 .env
+NetworkSecurity.egg-info/
