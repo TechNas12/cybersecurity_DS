@@ -1,4 +1,79 @@
-#Virtual Environment
+# 🔹 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environment
 venv/
+.venv/
+env/
+ENV/
+
+# 🔹 Logs (your project creates logs/)
+logs/
+*.log
+
+# 🔹 Environment variables
 .env
-NetworkSecurity.egg-info/
+.env.*
+
+# 🔹 Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+
+# 🔹 Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🔹 Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# 🔹 Jupyter Notebook
+.ipynb_checkpoints
+
+# 🔹 VS Code / IDE
+.vscode/
+.idea/
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 Docker (optional)
+*.pid
+*.seed
+*.pid.lock
+
+# 🔹 MyPy / static analysis
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 🔹 Pyright
+.pyright/
+
+# 🔹 Ruff / lint
+.ruff_cache/
+
+# 🔹 Temporary files
+*.tmp
+*.bak
+*.swp
