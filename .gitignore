@@ -77,3 +77,5 @@ dmypy.json
 *.tmp
 *.bak
 *.swp
+
+Artifacts/
